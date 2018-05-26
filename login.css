@@ -1,0 +1,98 @@
+.mine1
+{
+    font-size: 40px;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+}
+
+.mine2
+{
+    font-family: 'Pacifico' , cursive;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgba(0,0,0,.8);
+}
+
+.mine3
+{
+    margin-top: 10px;
+    z-index: 6;
+    opacity: 1;
+}
+
+.mine12
+{
+    margin-left: 15px;
+}
+
+.jumbotron {
+      background: url("https://res.cloudinary.com/swiggy/image/upload/c_scale,f_auto,fl_lossy,q_auto/29LN0615-29_380_Resized_2_C2_jvs9nf") no-repeat center center;
+      background-size: cover;
+    //  padding-top: 7%;
+    //  padding-bottom: 7%;
+    }
+
+.mine6
+{
+    padding-left: 30px;
+}
+
+.mine7
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.mine8
+{
+    padding-left: 72px;
+    padding-right: 72px;
+    opacity: 0.8;
+}
+
+.mine9
+{
+    padding-left: 65px;
+    padding-right: 80px;
+
+}
+
+.mine10
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.mine11:hover
+{
+    opacity: 0.7;
+}
+
+li
+{
+    display: inline;
+}
+
+opo
+{
+    padding-left: 500px;
+}
+
+h6
+{
+    text-align: center;
+}
+.modal-header, h4, .close {
+        background-color: #0074D9;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+
+ .modal-footer {
+      background-color: #f9f9f9;
+  }
