@@ -1,0 +1,44 @@
+.modal-header, h4, .close {
+        background-color: #0074D9;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+
+
+ .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  .navbar-brand
+  {
+      font-size: 30px;
+  }
+
+  .navbar{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
+  .mine44
+  {
+      padding-top: 10px;
+  }
+
+.jumbotron
+{
+    padding-top: 4%;
+      padding-bottom: 4%;
+    background-image: url(//asia-public.foodpanda.com/assets/production/in/layout/themes/capricciosa_foodpanda/images/en/homepage-splash.jpg?v=1459438060);
+    background-size: cover;
+}
+
+.lol1
+{
+    border: 20px solid rgba(0, 0, 0, .1);
+    -webkit-background-clip: padding-box;
+}
+
+.opo
+{
+    text-align: center;
+}

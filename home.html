@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>Buggy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+    <script>
+        $(function() {
+
+            $(".sel1 li a").click(function() {
+                $(".mine1").text($(this).text());
+                $('#but3').removeClass('disabled');
+                $('#but4').removeClass('disabled');
+            });
+            $(".sel2 li a").click(function() {
+                $(".mine2").text($(this).text());
+                $('#but5').removeClass('disabled');
+                $('#but6').removeClass('disabled');
+            });
+            $(".sel3 li a").click(function() {
+                $(".mine3").text($(this).text());
+                $('#but7').removeClass('disabled');
+            });
+        })
+    </script>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand mine44" href="login.html">
+                    <img alt="Buggy" src="dinner (1).png">
+                </a>
+                <a class="navbar-brand" href="login.html">Buggy</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class = "active"><a href="#">DashBoard</a></li>
+                    <li><a href="login.html">Home</a></li>
+                    <li><a href="login.html">Cart</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Update Profile</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg mine1">Location</button>
+                <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                <ul class="dropdown-menu sel1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg mine2 disabled" id = "but3">Type Of Restaurant</button>
+                <button type="button" class="btn btn-primary dropdown-toggle btn-lg disabled" id = "but4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                <ul class="dropdown-menu sel2">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-lg mine3 disabled" id = "but5">Type Of Restaurant</button>
+                <button type="button" class="btn btn-primary dropdown-toggle btn-lg disabled" id = "but6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+        </button>
+                <ul class="dropdown-menu sel3">
+
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-2"></div>
+            <button type="button" class="btn btn-success btn-lg min1 disabled" id = "but7">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
